@@ -148,11 +148,3 @@ p {
   padding-left: 2px;
   padding-right: 2px;
 }
-
-@media(max-width: 375px) {
-  body {
-  background: url('images/bg-pattern-top.svg') no-repeat -77rem -50rem, 
-  url('images/bg-pattern-bottom.svg') no-repeat 12rem 35rem;
-  background-color: hsl(185, 75%, 39%, 0.8);
-  }
-}
