@@ -1,9 +1,7 @@
-:root{
-  /* Colors */
+:root{  
   --dark-cyan:  hsl(185, 75%, 39%);
   --desaturated-blue: hsl(229, 23%, 23%);
   --grayish-blue: hsl(227, 10%, 46%);
-
   --dark-gray: hsl(0, 0%, 59%);
 }
 
@@ -57,8 +55,7 @@ section {
   width: 350px;
   border-radius: 10px;
   z-index: 4;
-  box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.33);
-  
+  box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.33);  
 }
 
 .card-img {  
@@ -155,7 +152,7 @@ p {
 @media(max-width: 375px) {
   body {
   background: url('images/bg-pattern-top.svg') no-repeat -77rem -50rem, 
-            url('images/bg-pattern-bottom.svg') no-repeat 12rem 35rem;
+  url('images/bg-pattern-bottom.svg') no-repeat 12rem 35rem;
   background-color: hsl(185, 75%, 39%, 0.8);
   }
 }
